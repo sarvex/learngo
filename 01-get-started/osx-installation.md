@@ -2,18 +2,13 @@
 
 ## NOTE
 
-If you have [homebrew](https://brew.sh) installed, you can easily install Go like so:
+If you have [homebrew](https://brew.sh) installed, you can easily install Git and Go like so:
 
-```
-# if you don't have git install it like so:
-brew install git
-
-# then install go
-brew install go
+    brew install git go
 
 # add GOBIN path to your PATH in ~/.bash_profile
+
 export PATH=${HOME}/go/bin:$PATH
-```
 
 ## 1- Install Visual Studio Code Editor
 
@@ -39,24 +34,13 @@ export PATH=${HOME}/go/bin:$PATH
 2. Close VS Code completely and open it up again
 
 3. Go to View menu; select **Command Palette**
-    1. Or just press `cmd+shift+p`
-    2. Type: `go install`
-    3. Select _"Go: Install/Update Tools"_
-    4. Check all the checkboxes
+
+   1. Or just press `cmd+shift+p`
+   2. Type: `go install`
+   3. Select _"Go: Install/Update Tools"_
+   4. Check all the checkboxes
 
 4. After it's done, open the **Command Palette** again
-    1. Type: `shell`
-    2. Select: _"Install 'code' command in PATH"_
-        1. **NOTE:** You don't have to do this if you're on Windows.
-
-## That's all! Enjoy! 🤩
-
-<div style="page-break-after: always;"></div>
-
-> For more tutorials: [https://blog.learngoprogramming.com](https://blog.learngoprogramming.com)
-> 
-> Copyright © 2018 Inanc Gumus
-> 
-> Learn Go Programming Course
-> 
-> [Click here to read the license.](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+   1. Type: `shell`
+   2. Select: _"Install 'code' command in PATH"_
+      1. **NOTE:** You don't have to do this if you're on Windows.

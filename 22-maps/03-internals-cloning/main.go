@@ -1,11 +1,3 @@
-// Copyright © 2018 Inanc Gumus
-// Learn Go Programming Course
-// License: https://creativecommons.org/licenses/by-nc-sa/4.0/
-//
-// For more tutorials  : https://learngoprogramming.com
-// In-person training  : https://www.linkedin.com/in/inancgumus/
-// Follow me on twitter: https://twitter.com/inancgumus
-
 package main
 
 import (
@@ -35,7 +27,7 @@ func main() {
 	delete(dict, "awesome") // #6
 	delete(dict, "awesome") // #7: no-op
 	delete(dict, "notexisting")
-	
+
 	// dict = nil // #8
 	for k := range dict { // #9
 		delete(dict, k)

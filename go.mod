@@ -3,7 +3,7 @@ module github.com/sarvex/learngo
 go 1.13
 
 require (
-	github.com/fatih/color v1.15.0
+	github.com/fatih/color v1.18.0
 	github.com/guineveresaenger/golang-rainbow v0.0.0-20171201190047-7b6c54e09b61
 	github.com/inancgumus/learngo v0.0.0-20230115140910-e366d1a364eb
 	github.com/inancgumus/prettyslice v0.0.0-20190305220808-d802ba58098f
